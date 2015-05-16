@@ -21,7 +21,7 @@
         android:layout_gravity="center_vertical"
         android:id="@+id/listText"
         android:text="dummy tezt"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:textColor="#FFFFFF"/>
 
 </LinearLayout>

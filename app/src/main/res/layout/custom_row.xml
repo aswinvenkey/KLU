@@ -3,7 +3,7 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#444444">
+    android:background="#1996E6">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_gravity="center_vertical"
         android:id="@+id/listText"
         android:text="dummy tezt"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"/>
+        android:textSize="15sp"
+        android:textColor="#000000"/>
 
 </LinearLayout>

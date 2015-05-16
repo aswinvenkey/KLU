@@ -70,7 +70,7 @@ public class NavigationDrawerFragment extends Fragment implements com.racingwhee
 
     public static List<Manager> getData() {
         List<Manager> data = new ArrayList<>();
-        int[] icons = {R.drawable.icon_abtus,R.drawable.icon_admission,R.drawable.icon_sis_new,R.drawable.icon_paco,R.drawable.icon_easy_new,R.drawable.icon_rss,R.drawable.icon_thesis,R.drawable.icon_cus,R.drawable.icon_close};
+        int[] icons = {R.drawable.icon_abtus,R.drawable.icon_admission,R.drawable.icon_sis,R.drawable.icon_paco,R.drawable.icon_easy,R.drawable.icon_rss,R.drawable.icon_thesis,R.drawable.icon_cus,R.drawable.icon_close};
         String[] titles = {"About The University","KLU-Admissions","KLU-SIS","KLU-PACO","KLU-EASY","Events & News","Thesis Status","Contact Us","Exit"};
         for (int i = 0; i < titles.length && i < icons.length; i++) {
             Manager current = new Manager();
